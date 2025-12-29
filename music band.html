@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Band</title>
+    <style>
+       
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+        body {
+
+            font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;;
+
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;   
+            font-size: 2cm;
+            padding: 10px;
+            padding: 20px 0;
+            background-color: #111;
+            margin-bottom: 20px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        footer {
+            padding: 20px;
+            background-color: #111;
+            margin-top: 20px;
+        }
+        .subscribe {
+            margin-top: 20px;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+        }
+        .subscribe input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .subscribe input[type="submit"]:hover {
+            background-color: #555;
+        }
+        .gallery{
+            
+            margin-top: 50PX;
+        }
+        .equal-size{
+            height: 700px;
+            width: 700px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/736x/a8/65/5c/a8655c57311021fda21c533551252d46.jpg" alt="Band Logo">
+    </header>
+
+    <nav>
+        <a href="#bio">BAND</a>
+        <a href="#events">EVENTS</a>
+        <a href="#music">MUSIC</a>
+        <a href="#gallery">GALLERY</a>
+    </nav>
+
+    <section id="bio">
+        <style>
+            .hover-image {
+                width: 600px; /* Adjust width as needed */
+                height: auto; /* Maintain aspect ratio */
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .hover-image:hover {
+                transform: scale(1.1); /* Slightly scale up the image */
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+            }
+        </style>
+        <img src="https://i.pinimg.com/736x/da/2b/21/da2b215c75035bce696ee43bad300a5f.jpg" alt="Band Photo" class="hover-image">
+        <p style="font-size: 20px;">
+            Formed in the heart of Sheffield, England, blending raw guitar riffs with infectious melodies.<br>
+            Known for their electrifying live performances and an unapologetically edgy sound.<br>
+            Influenced by classic rock, modern indie, and a dash of punk attitude.<br>
+            Lyrics capture everything from late-night drives to chaotic city life.<br>
+            A band on a mission to push boundaries and make music that sticks with you.<br>
+        </p>
+    </section>
+    <style>
+        .hover-image {
+            width: 600px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-image:hover {
+            transform: scale(1.1); /* Slightly scale up the image */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        }
+    </style>
+    <img src="https://i.pinimg.com/736x/4c/b5/f9/4cb5f920294e7bb592515775117b3395.jpg" alt="Band Photo" class="hover-image">
+    <section id="events">
+        <br>
+        <h1>TOUR DATES</h1>
+        <p style="font-size: 20px;">
+            March 5, 2025 – Madison Square Garden, New York, USA<br>
+            March 12, 2025 – The O2 Arena, London, UK<br>
+            March 19, 2025 – AccorHotels Arena, Paris, France<br>
+            March 25, 2025 – Tokyo Dome, Tokyo, Japan<br>
+            April 2, 2025 – Staples Center, Los Angeles, USA<br>
+            April 9, 2025 – Mercedes-Benz Arena, Berlin, Germany<br>
+            April 16, 2025 – Rod Laver Arena, Melbourne, Australia<br>
+            April 23, 2025 – Estadio Azteca, Mexico City, Mexico<br>
+            May 1, 2025 – MetLife Stadium, New Jersey, USA<br>
+            May 8, 2025 – Soccer City, Johannesburg, South Africa<br>
+        </p>
+    </section>
+<br>
+<br>
+    <section id="music">
+        <h2>LATEST TRACKS</h2>
+        <style>
+            .small-image {
+                width: 200px; /* Adjust width as needed */
+                height: 200px; /* Adjust height as needed */
+                object-fit: cover; /* Ensure the image maintains aspect ratio and fills the space */
+                margin: 10px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .small-image:hover {
+                transform: scale(1.1);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            
+            }
+        </style>
+        <div>
+    
+            <a href="https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH/discography/album">
+                <img src="https://i.pinimg.com/736x/1b/a7/95/1ba7959adc75b460ab98fa46e03833d3.jpg" alt="THE CAR" class="small-image">
+            </a>
+            <a href="https://open.spotify.com/album/7Heaa0B4KOxdWhSICTR2wE">
+                <img src="https://i.pinimg.com/736x/19/00/04/19000478faa408e37611987db39f01cc.jpg" alt="LIVE AT THE ROYAL ALBERT HALL" class="small-image">
+            </a>
+            <a href="https://open.spotify.com/album/7v6FNgLDS8KmaWA1amUtqe">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/38/Arctic_Monkeys_%E2%80%93_Tranquility_Base_Hotel_%26_Casino.png" alt="Tranquility Base Hotel & Casino" class="small-image">
+            </a>
+        </div>
+    </section>
+<br>
+<br>
+    <section id="gallery">
+        <h2>GALLERY</h2>
+        <img src="https://i.pinimg.com/736x/21/a7/85/21a78544920848889bed094ec7ffe3ac.jpg" alt="Performance 1" class="equal-size" height="400" width="200">
+        <img src="https://i.pinimg.com/736x/3a/f4/a3/3af4a391e1e85c1621c1ccbf45899c26.jpg" alt="Performance 2" class="equal-size" height="400" width="200">
+        <img src="https://i.pinimg.com/736x/80/25/2b/80252b3ebabe4f24a3f23f97d2f6bfe5.jpg" alt="Performance 3" class="equal-size" height="400" width="200">
+        <img src="https://i.pinimg.com/736x/39/35/2a/39352a4761b4c746fc6ef7d23984b124.jpg" alt="Performance 4" class="equal-size" height="400" width="200">
+
+    </section>
+
+    <footer>
+        <p>© 2025 Music Band. All rights reserved.</p>
+        <div class="subscribe">
+            <h3>Subscribe to get latest updates</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
